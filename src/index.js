@@ -4,11 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// const myelement = <h1>I Love SX!</h1>;
+
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
+
   </React.StrictMode>,
-  document.getElementById('root')
+
+  // myelement, document.getElementById('root')
+  document.getElementById('root'),
+  // document.getElementById('spnk')
 );
 
 // If you want to start measuring performance in your app, pass a function
